@@ -1,0 +1,43 @@
+body{
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+    background-color: #293241;
+}
+header{
+    display: flex;
+    gap: 64px;
+    padding: 0 30px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 40px;
+
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    padding: 3px 10px;
+}
+
+
+.l1{
+    background-image: url(img/l1.png);
+    background-position: center;
+    background-size: cover;
+}
+.l2{
+    background-image: url(img/l2.png) ;
+    background-position: center;
+    background-size: cover;
+
+}
+.l3{
+background-image: url(img/l3.png);
+    background-position: center;
+    background-size: cover;
+
+}
